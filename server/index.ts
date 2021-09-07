@@ -5,6 +5,7 @@ function createWindow() {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     height: 600,
+    title: "Zeno",
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
     },
